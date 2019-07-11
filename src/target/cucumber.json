@@ -1,0 +1,296 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "  // Given Given: user on the website",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 13393509729,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on industries module",
+            "match": {
+              "location": "IndustriesStepDefs.user_clicks_on_industries_module()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1740050382,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Exploring in the modules logistics",
+        "description": "",
+        "id": "logisticspage;exploring-in-the-modules-logistics",
+        "after": [
+          {
+            "result": {
+              "duration": 110908345,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3576188900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "click on logistics page",
+            "match": {
+              "location": "IndustriesStepDefs.click_on_logistics_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@go"
+          }
+        ]
+      }
+    ],
+    "name": "LogisticsPage",
+    "description": "",
+    "id": "logisticspage",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/pdiEng/industries/logistics.feature",
+    "tags": [
+      {
+        "name": "@go",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "   // Given: user on the website",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 12328272643,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user clicks on industries module",
+            "match": {
+              "location": "IndustriesStepDefs.user_clicks_on_industries_module()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1126134186,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Exploring in the modules",
+        "description": "",
+        "id": "industries-page;exploring-in-the-modules",
+        "after": [
+          {
+            "result": {
+              "duration": 113038471,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1557226344,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click on retail page",
+            "match": {
+              "location": "IndustriesStepDefs.click_on_retail_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1781513581,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user clicks on erp module",
+            "match": {
+              "location": "IndustriesStepDefs.user_clicks_on_erp_module()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5946663,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "check the page title",
+            "match": {
+              "location": "IndustriesStepDefs.check_the_page_title()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@go"
+          }
+        ]
+      }
+    ],
+    "name": "Industries page",
+    "description": "",
+    "id": "industries-page",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/pdiEng/industries/retail.feature",
+    "tags": [
+      {
+        "name": "@go",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "     // Given Given: user on the website",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 16379316920,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on industries module",
+            "match": {
+              "location": "IndustriesStepDefs.user_clicks_on_industries_module()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1126163283,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Exploring in the modules wholesale",
+        "description": "",
+        "id": "wholesalepage;exploring-in-the-modules-wholesale",
+        "after": [
+          {
+            "result": {
+              "duration": 112845337,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1495063685,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "click on wholesale page",
+            "match": {
+              "location": "IndustriesStepDefs.click_on_wholesale_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@go"
+          }
+        ]
+      }
+    ],
+    "name": "WholesalePage",
+    "description": "",
+    "id": "wholesalepage",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/pdiEng/industries/wholesale.feature",
+    "tags": [
+      {
+        "name": "@go",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
